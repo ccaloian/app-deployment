@@ -1,0 +1,20 @@
+# local terraform providers files
+**/.terraform/
+
+# terraform local state files
+*.tfstate
+*.tfstate.*
+
+# terraform variables files, may include  sensitive data
+*.tfvars
+
+# cli configuration files
+.terraformrc
+terraform.rc
+
+# Mac/OSX system files, with the folder metadata
+.DS_Store
+
+# crash log files
+crash.log
+
